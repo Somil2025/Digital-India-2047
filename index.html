@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital India 2047</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Roboto, sans-serif;
+  }
+  body {
+    background: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, #0078d7, #00bcd4);
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  nav a {
+    color: #0078d7;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    transition: all 0.3s ease;
+    font-weight: 600;
+  }
+  nav a:hover {
+    background: #0078d7;
+    color: white;
+  }
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #e3f2fd, #fff);
+  }
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .hero p {
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  .hero .btn {
+    background: #0078d7;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  .hero .btn:hover {
+    background: #005fa3;
+  }
+  .content {
+    padding: 50px 80px;
+    background: white;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    max-width: 1100px;
+  }
+  .content h3 {
+    color: #0078d7;
+    margin-bottom: 15px;
+  }
+  .content p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  .banner-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  ul {
+    color: #555;
+    margin-left: 20px;
+    line-height: 1.8;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  .contact-form button {
+    background: #0078d7;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 1rem;
+  }
+  .contact-form button:hover {
+    background: #005fa3;
+  }
+  footer {
+    background: #002b5c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+  }
+  footer a {
+    color: #00bcd4;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  footer p {
+    font-size: 0.9rem;
+  }
+  @media (max-width: 768px) {
+    header h1 { font-size: 2rem; }
+    .content { padding: 30px 20px; }
+  }
+</style>
+</head>
+
+<body>
+  <header>
+    <h1>Digital India 2047</h1>
+    <p>Empowering the Nation through Technology, Innovation & Inclusion</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#vision">Vision 2047</a>
+    <a href="#infrastructure">Smart Infrastructure</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Transforming India into a Global Digital Powerhouse</h2>
+    <p>By 2047, India envisions a future where every citizen thrives in a digitally empowered ecosystem — driven by innovation, artificial intelligence, and sustainable technology.</p>
+    <button class="btn">Explore Future</button>
+  </div>
+
+  <div class="content" id="about">
+    <h3>About Digital India 2047</h3>
+    <img src="images/India1.png" alt="Digital India 2047 Concept" class="banner-img">
+    <p>Digital India 2047 represents a long-term vision to make India self-reliant and technologically advanced. With a focus on digital infrastructure, skill development, and inclusive growth, the initiative aims to connect every village, empower startups, and drive sustainable innovation.</p>
+  </div>
+
+  <div class="content" id="vision">
+    <h3>Vision 2047</h3>
+    <img src="images/India1.png" alt="Vision 2047" class="banner-img">
+    <p>By 2047, India’s digital transformation seeks to become a global leader in technology and innovation. The vision focuses on sustainable AI systems, universal 6G connectivity, blockchain-secured governance, and equitable access to opportunities across urban and rural India.</p>
+  </div>
+
+  <div class="content" id="infrastructure">
+    <h3>Smart Infrastructure</h3>
+    <img src="images/India1.png" alt="Smart Infrastructure" class="banner-img">
+    <ul>
+      <li>Development of interconnected Smart Cities</li>
+      <li>Green data centers powered by renewable energy</li>
+      <li>AI-driven traffic, waste, and power management systems</li>
+      <li>Public access to digital resources in rural areas</li>
+      <li>Next-generation broadband and satellite networks</li>
+    </ul>
+  </div>
+
+  <div class="content" id="contact">
+    <h3>Contact Us</h3>
+    <p>Have questions or ideas to contribute to the Digital India 2047 initiative? Reach out to us below.</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+    
+    <p>
+      <a href="#">Privacy Policy</a> |
+      <a href="#">Terms of Use</a> |
+      <a href="#">Feedback</a>
+    </p>
+  </footer>
+</body>
+</html>
